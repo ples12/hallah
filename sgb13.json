@@ -1,0 +1,287 @@
+{
+  "Sprint": {
+    "enabled": true
+  },
+  "Fly": {
+    "enabled": false,
+    "values": [
+      {
+        "Mode": "Motion",
+        "Distance": "6.0"
+      }
+    ]
+  },
+  "HUD": {
+    "enabled": true,
+    "values": [
+      {
+        "ArrayList": "true",
+        "Watermark": "true",
+        "Kill-Count": "false",
+        "Color": "Astolfo",
+        "WM-Mode": "Centrum",
+        "Font": "Vanilla"
+      }
+    ]
+  },
+  "Speed": {
+    "enabled": false,
+    "values": [
+      {
+        "Mode": "Hypixel"
+      }
+    ]
+  },
+  "NoSlowDown": {
+    "enabled": true,
+    "values": [
+      {
+        "Mode": "Intave13"
+      }
+    ]
+  },
+  "Killaura": {
+    "enabled": false,
+    "values": [
+      {
+        "Mode": "Switch",
+        "Block-Mode": "Fake",
+        "Sort-Mode": "Health",
+        "MoveFix-Mode": "Silent",
+        "Attack-Mode": "Post",
+        "Min-CPS": "7.9",
+        "Max-CPS": "16.800000000000008",
+        "Min-Speed": "25.700000000000095",
+        "Max-Speed": "29.700000000000152",
+        "Block-Range": "10.99999999999999",
+        "Range": "4.2",
+        "Switch-Speed": "300.0",
+        "Max-Targets": "5.0",
+        "AutoBlock": "true",
+        "NoRotate": "false",
+        "JumpFix": "true",
+        "RayTrace": "true",
+        "Invisibles": "false",
+        "Players": "true",
+        "Animals": "false",
+        "Mobs": "false",
+        "Teams": "true"
+      }
+    ]
+  },
+  "Scaffold": {
+    "enabled": false,
+    "values": [
+      {
+        "Mode": "Spoof",
+        "Tower": "Off",
+        "Rotations": "Snap",
+        "Sprint": "NoGround",
+        "Sneak": "Off",
+        "Motion": "1.0",
+        "Jump": "true",
+        "SafeWalk": "true",
+        "Swing": "false",
+        "Block-Predict": "false",
+        "ScaffoldHUD": "true"
+      }
+    ]
+  },
+  "ESP": {
+    "enabled": true,
+    "values": [
+      {
+        "Mode": "2D",
+        "Box": "false",
+        "Health": "true",
+        "Tag": "true",
+        "Box-Color": "HUD",
+        "Health-Color": "HUD",
+        "Invisibles": "false",
+        "Players": "true",
+        "Animals": "false",
+        "Mobs": "false",
+        "Teams": "false"
+      }
+    ]
+  },
+  "Criticals": {
+    "enabled": false,
+    "values": [
+      {
+        "Mode": "Motion"
+      }
+    ]
+  },
+  "CivBreak": {
+    "enabled": false,
+    "values": [
+      {
+        "Delay": "100.0",
+        "Swing": "true"
+      }
+    ]
+  },
+  "Velocity": {
+    "enabled": true,
+    "values": [
+      {
+        "Mode": "AAC"
+      }
+    ]
+  },
+  "Timechanger": {
+    "enabled": true,
+    "values": [
+      {
+        "Time": "Night",
+        "Manual": "17090.0"
+      }
+    ]
+  },
+  "Autotool": {
+    "enabled": false
+  },
+  "Step": {
+    "enabled": false,
+    "values": [
+      {
+        "Mode": "Motion"
+      }
+    ]
+  },
+  "ChinaHat": {
+    "enabled": true
+  },
+  "AntiBot": {
+    "enabled": true,
+    "values": [
+      {
+        "Mode": "SG",
+        "Remove": "false"
+      }
+    ]
+  },
+  "InvManager": {
+    "enabled": false,
+    "values": [
+      {
+        "AutoArmor": "true",
+        "Clean": "true",
+        "OpenInv": "false",
+        "AutoSword": "true",
+        "Delay": "332.4000000000085"
+      }
+    ]
+  },
+  "Animations": {
+    "enabled": true,
+    "values": [
+      {
+        "Mode": "Old",
+        "Swing-Speed": "1.0",
+        "X-Scale": "0.0",
+        "Y-Scale": "0.0",
+        "Z-Scale": "0.0"
+      }
+    ]
+  },
+  "TargetHUD": {
+    "enabled": true,
+    "values": [
+      {
+        "X-Pos": "550.0",
+        "Y-Pos": "110.0",
+        "Mode": "Centrum"
+      }
+    ]
+  },
+  "Notifications": {
+    "enabled": false,
+    "values": [
+      {
+        "Type": "Notifications"
+      }
+    ]
+  },
+  "AimBot": {
+    "enabled": false,
+    "values": [
+      {
+        "Delay": "200.0",
+        "Auto-Shoot": "true"
+      }
+    ]
+  },
+  "BackTrack": {
+    "enabled": false,
+    "values": [
+      {
+        "Mode": "Lag",
+        "Delay": "150.0"
+      }
+    ]
+  },
+  "WTap": {
+    "enabled": true
+  },
+  "ClickGui": {
+    "enabled": false
+  },
+  "AutoRod": {
+    "enabled": false
+  },
+  "Cape": {
+    "enabled": true
+  },
+  "Cheststealer": {
+    "enabled": true,
+    "values": [
+      {
+        "Delay": "75.0",
+        "AutoClose": "true",
+        "KeepMouse": "true",
+        "Silent": "false"
+      }
+    ]
+  },
+  "Chams": {
+    "enabled": true,
+    "values": [
+      {
+        "Hand": "false",
+        "FLAT": "true",
+        "RED": "7.0",
+        "GREEN": "232.0",
+        "BLUE": "7.0",
+        "ALPHA": "0.20000000000000015",
+        "REDODCLUDED": "189.0",
+        "GREENODCLUDED": "130.0",
+        "BLUEODCLUDED": "83.0",
+        "ALPHAODCLUDED": "0.40000000000000013"
+      }
+    ]
+  },
+  "AntiVoid": {
+    "enabled": false
+  },
+  "LongJump": {
+    "enabled": false,
+    "values": [
+      {
+        "Mode": "Hypixel"
+      }
+    ]
+  },
+  "KillSults": {
+    "enabled": false
+  },
+  "Phase": {
+    "enabled": false,
+    "values": [
+      {
+        "Mode": "Hypixel"
+      }
+    ]
+  }
+}
