@@ -49,12 +49,13 @@
         "Sort-Mode": "Health",
         "MoveFix-Mode": "Silent",
         "Attack-Mode": "Post",
+        "Click-Mode": "Packet",
         "Min-CPS": "7.9",
         "Max-CPS": "16.800000000000008",
         "Min-Speed": "25.700000000000095",
         "Max-Speed": "29.700000000000152",
         "Block-Range": "10.99999999999999",
-        "Range": "4.2",
+        "Range": "4.3999999999999995",
         "Switch-Speed": "300.0",
         "Max-Targets": "5.0",
         "AutoBlock": "true",
@@ -75,7 +76,7 @@
       {
         "Mode": "Spoof",
         "Tower": "Off",
-        "Rotations": "Snap",
+        "Rotations": "Always",
         "Sprint": "NoGround",
         "Sneak": "Off",
         "Motion": "1.0",
@@ -95,7 +96,7 @@
         "Box": "false",
         "Health": "true",
         "Tag": "true",
-        "Box-Color": "HUD",
+        "Box-Color": "Normal",
         "Health-Color": "HUD",
         "Invisibles": "false",
         "Players": "true",
@@ -126,7 +127,10 @@
     "enabled": true,
     "values": [
       {
-        "Mode": "AAC"
+        "Mode": "AAC",
+        "Reverse-strenght": "0.30000000000000104",
+        "Horizontal": "55.00000000000192",
+        "Vertical": "80.80000000000109"
       }
     ]
   },
@@ -140,7 +144,12 @@
     ]
   },
   "Autotool": {
-    "enabled": false
+    "enabled": false,
+    "values": [
+      {
+        "Mode": "Spoof"
+      }
+    ]
   },
   "Step": {
     "enabled": false,
@@ -235,7 +244,7 @@
     "enabled": true
   },
   "Cheststealer": {
-    "enabled": true,
+    "enabled": false,
     "values": [
       {
         "Delay": "75.0",
@@ -249,15 +258,15 @@
     "enabled": true,
     "values": [
       {
-        "Hand": "false",
+        "Hand": "true",
         "FLAT": "true",
-        "RED": "7.0",
-        "GREEN": "232.0",
-        "BLUE": "7.0",
+        "RED": "68.0",
+        "GREEN": "27.0",
+        "BLUE": "228.0",
         "ALPHA": "0.20000000000000015",
         "REDODCLUDED": "189.0",
-        "GREENODCLUDED": "130.0",
-        "BLUEODCLUDED": "83.0",
+        "GREENODCLUDED": "75.0",
+        "BLUEODCLUDED": "134.0",
         "ALPHAODCLUDED": "0.40000000000000013"
       }
     ]
