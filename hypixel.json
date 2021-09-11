@@ -1,9 +1,11 @@
 {
   "Sprint": {
-    "enabled": true
+    "enabled": false,
+    "bind": 0
   },
   "Fly": {
     "enabled": false,
+    "bind": 0,
     "values": [
       {
         "Mode": "AAC5",
@@ -13,12 +15,13 @@
   },
   "HUD": {
     "enabled": true,
+    "bind": 25,
     "values": [
       {
         "ArrayList": "true",
         "Watermark": "true",
         "Kill-Count": "false",
-        "Color": "Astolfo",
+        "Color": "Fade",
         "WM-Mode": "Neverlose",
         "Font": "Vanilla"
       }
@@ -26,6 +29,7 @@
   },
   "Speed": {
     "enabled": false,
+    "bind": 47,
     "values": [
       {
         "Mode": "HypixelLow",
@@ -35,7 +39,8 @@
     ]
   },
   "NoSlowDown": {
-    "enabled": true,
+    "enabled": false,
+    "bind": 23,
     "values": [
       {
         "Mode": "NCP"
@@ -43,7 +48,8 @@
     ]
   },
   "Killaura": {
-    "enabled": true,
+    "enabled": false,
+    "bind": 19,
     "values": [
       {
         "Mode": "Switch",
@@ -56,8 +62,8 @@
         "Max-CPS": "10.700000000000015",
         "Min-Speed": "28.400000000000134",
         "Max-Speed": "29.100000000000144",
-        "Block-Range": "9.399999999999995",
-        "Range": "5.899999999999994",
+        "Block-Range": "4.600000000000012",
+        "Range": "4.1000000000000005",
         "Switch-Speed": "300.0",
         "Max-Targets": "5.0",
         "AutoBlock": "true",
@@ -69,12 +75,13 @@
         "Animals": "false",
         "Mobs": "false",
         "Dead": "false",
-        "Teams": "true"
+        "Teams": "false"
       }
     ]
   },
   "Scaffold": {
     "enabled": false,
+    "bind": 33,
     "values": [
       {
         "Mode": "Change",
@@ -93,25 +100,27 @@
     ]
   },
   "ESP": {
-    "enabled": true,
+    "enabled": false,
+    "bind": 0,
     "values": [
       {
         "Mode": "2D",
         "Box": "false",
-        "Health": "true",
+        "Health": "false",
         "Tag": "true",
         "Box-Color": "HUD",
-        "Health-Color": "HUD",
+        "Health-Color": "Normal",
         "Invisibles": "false",
         "Players": "true",
-        "Animals": "true",
-        "Mobs": "true",
+        "Animals": "false",
+        "Mobs": "false",
         "Teams": "false"
       }
     ]
   },
   "Criticals": {
     "enabled": false,
+    "bind": 36,
     "values": [
       {
         "Mode": "Motion"
@@ -120,6 +129,7 @@
   },
   "CivBreak": {
     "enabled": false,
+    "bind": 0,
     "values": [
       {
         "Delay": "100.0",
@@ -128,7 +138,8 @@
     ]
   },
   "Velocity": {
-    "enabled": true,
+    "enabled": false,
+    "bind": 0,
     "values": [
       {
         "Mode": "Packet",
@@ -139,7 +150,8 @@
     ]
   },
   "Timechanger": {
-    "enabled": true,
+    "enabled": false,
+    "bind": 0,
     "values": [
       {
         "Time": "Day",
@@ -148,7 +160,8 @@
     ]
   },
   "Autotool": {
-    "enabled": true,
+    "enabled": false,
+    "bind": 22,
     "values": [
       {
         "Mode": "Normal"
@@ -157,6 +170,7 @@
   },
   "Step": {
     "enabled": false,
+    "bind": 0,
     "values": [
       {
         "Mode": "Motion"
@@ -164,10 +178,12 @@
     ]
   },
   "ChinaHat": {
-    "enabled": true
+    "enabled": false,
+    "bind": 50
   },
   "AntiBot": {
-    "enabled": true,
+    "enabled": false,
+    "bind": 0,
     "values": [
       {
         "Mode": "SG",
@@ -176,7 +192,8 @@
     ]
   },
   "InvManager": {
-    "enabled": true,
+    "enabled": false,
+    "bind": 48,
     "values": [
       {
         "AutoArmor": "true",
@@ -188,7 +205,8 @@
     ]
   },
   "Animations": {
-    "enabled": true,
+    "enabled": false,
+    "bind": 0,
     "values": [
       {
         "Mode": "Old",
@@ -200,7 +218,8 @@
     ]
   },
   "TargetHUD": {
-    "enabled": true,
+    "enabled": false,
+    "bind": 0,
     "values": [
       {
         "X-Pos": "550.0",
@@ -210,7 +229,8 @@
     ]
   },
   "Notifications": {
-    "enabled": true,
+    "enabled": false,
+    "bind": 0,
     "values": [
       {
         "Type": "Notifications"
@@ -219,6 +239,7 @@
   },
   "AimBot": {
     "enabled": false,
+    "bind": 0,
     "values": [
       {
         "Delay": "200.0",
@@ -228,6 +249,7 @@
   },
   "BackTrack": {
     "enabled": false,
+    "bind": 0,
     "values": [
       {
         "Mode": "Lag",
@@ -236,19 +258,24 @@
     ]
   },
   "WTap": {
-    "enabled": false
+    "enabled": false,
+    "bind": 0
   },
   "ClickGui": {
-    "enabled": false
+    "enabled": false,
+    "bind": 54
   },
   "AutoRod": {
-    "enabled": false
+    "enabled": false,
+    "bind": 0
   },
   "Cape": {
-    "enabled": false
+    "enabled": false,
+    "bind": 0
   },
   "Cheststealer": {
-    "enabled": true,
+    "enabled": false,
+    "bind": 48,
     "values": [
       {
         "Min-Delay": "84.0",
@@ -262,23 +289,28 @@
   },
   "Chams": {
     "enabled": true,
+    "bind": 0,
     "values": [
       {
-        "Hand": "true",
-        "FLAT": "true",
-        "RED": "7.0",
-        "GREEN": "9.0",
-        "BLUE": "236.0",
-        "ALPHA": "0.2",
-        "REDODCLUDED": "189.0",
-        "GREENODCLUDED": "90.0",
-        "BLUEODCLUDED": "130.0",
-        "ALPHAODCLUDED": "0.4"
+        "Hand": "false",
+        "Colored": "false",
+        "Players": "true",
+        "Animals": "true",
+        "Mobs": "true",
+        "Passives": "true",
+        "RED": "0.971",
+        "GREEN": "0.03499999999999914",
+        "BLUE": "0.03299999999999914",
+        "ALPHA": "0.9999999999999999",
+        "HIDDENRED": "0.7169999999999997",
+        "HIDDENGREEN": "1.0",
+        "HIDDENBLUE": "1.0"
       }
     ]
   },
   "AntiVoid": {
-    "enabled": true,
+    "enabled": false,
+    "bind": 0,
     "values": [
       {
         "Mode": "Hypixel"
@@ -287,6 +319,7 @@
   },
   "LongJump": {
     "enabled": false,
+    "bind": 0,
     "values": [
       {
         "Mode": "Hypixel"
@@ -294,10 +327,12 @@
     ]
   },
   "KillSults": {
-    "enabled": false
+    "enabled": false,
+    "bind": 0
   },
   "Nofall": {
     "enabled": false,
+    "bind": 0,
     "values": [
       {
         "Mode": "Spoof"
@@ -305,23 +340,15 @@
     ]
   },
   "Disabler": {
-    "enabled": false
+    "enabled": false,
+    "bind": 0
   },
   "HitMakers": {
-    "enabled": true
-  },
-  "AutoEat": {
     "enabled": false,
-    "values": [
-      {
-        "Mode": "Normal",
-        "StartHunger": "5.0",
-        "StartHealth": "5.0",
-        "Gapple": "true"
-      }
-    ]
+    "bind": 0
   },
   "TargetStrafe": {
-    "enabled": true
+    "enabled": false,
+    "bind": 0
   }
 }
